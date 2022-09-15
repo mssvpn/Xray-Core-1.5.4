@@ -18,8 +18,8 @@ import (
 )
 
 var (
-	version  = "1.5.4"
-	build    = "Custom"
+	version  = "1.5.4.1"
+	build    = "Custom WSS"
 	codename = "Xray, Penetrates Everything."
 	intro    = "A unified platform for anti-censorship."
 )
