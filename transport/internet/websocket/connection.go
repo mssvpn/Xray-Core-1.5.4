@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/mssvpn/websocket"
+	"github.com/llycoris/websocket"
 
 	"github.com/xtls/xray-core/common/buf"
 	"github.com/xtls/xray-core/common/errors"
