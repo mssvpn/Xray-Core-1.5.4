@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module github.com/mssvpn/Xray-Core-1.5.4
 
 go 1.17
 
