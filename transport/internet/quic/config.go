@@ -5,11 +5,10 @@ import (
 	"crypto/cipher"
 	"crypto/sha256"
 
-	"golang.org/x/crypto/chacha20poly1305"
-
 	"github.com/mssvpn/Xray-Core-1.5.4/common"
 	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
 	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
+	"golang.org/x/crypto/chacha20poly1305"
 )
 
 func getAuth(config *Config) (cipher.AEAD, error) {

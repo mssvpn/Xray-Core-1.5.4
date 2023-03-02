@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mssvpn/websocket"
+	"github.com/gorilla/websocket"
 
 	"github.com/mssvpn/Xray-Core-1.5.4/common"
 	"github.com/mssvpn/Xray-Core-1.5.4/common/net"

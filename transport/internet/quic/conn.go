@@ -7,8 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lucas-clemente/quic-go"
-
+	"github.com/quic-go/quic-go"
 	"github.com/mssvpn/Xray-Core-1.5.4/common"
 	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
 	"github.com/mssvpn/Xray-Core-1.5.4/common/net"

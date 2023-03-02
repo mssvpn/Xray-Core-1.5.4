@@ -62,7 +62,7 @@ This repo relies on the following third-party projects:
   - [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
 - In production:
   - [gorilla/websocket](https://github.com/gorilla/websocket)
-  - [lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
+  - [lucas-clemente/quic-go](https://github.com/quic-go/quic-go)
   - [pires/go-proxyproto](https://github.com/pires/go-proxyproto)
   - [seiflotfy/cuckoofilter](https://github.com/seiflotfy/cuckoofilter)
   - [google/starlark-go](https://github.com/google/starlark-go)
