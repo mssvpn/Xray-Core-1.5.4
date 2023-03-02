@@ -4,11 +4,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/session"
+	"github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/dns"
 )
 
 // newFakeDNSSniffer Creates a Fake DNS metadata sniffer

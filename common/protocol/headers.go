@@ -3,9 +3,9 @@ package protocol
 import (
 	"runtime"
 
-	"github.com/xtls/xray-core/common/bitmask"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/bitmask"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/uuid"
 )
 
 // RequestCommand is a custom command in a proxy request.

@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	. "github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
+	. "github.com/mssvpn/Xray-Core-1.5.4/common/errors"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/log"
 )
 
 func TestError(t *testing.T) {

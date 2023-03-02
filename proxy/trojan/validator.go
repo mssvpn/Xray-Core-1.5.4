@@ -4,7 +4,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
 )
 
 // Validator stores valid trojan users.

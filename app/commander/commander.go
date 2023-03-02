@@ -1,6 +1,6 @@
 package commander
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Core-1.5.4/common/errors/errorgen
 
 import (
 	"context"
@@ -9,10 +9,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/signal/done"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/signal/done"
+	core "github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/outbound"
 )
 
 // Commander is a Xray feature that provides gRPC methods to external clients.

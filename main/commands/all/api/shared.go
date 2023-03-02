@@ -16,8 +16,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/main/commands/base"
 )
 
 type serviceHandler func(ctx context.Context, conn *grpc.ClientConn, cmd *base.Command, args []string) string

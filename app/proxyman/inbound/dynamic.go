@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/proxyman"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/dice"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/mux"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/task"
+	"github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
 )
 
 type DynamicInboundHandler struct {

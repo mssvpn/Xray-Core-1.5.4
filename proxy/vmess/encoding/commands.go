@@ -4,12 +4,12 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/uuid"
 )
 
 var (

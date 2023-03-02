@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/udp"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol/udp"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/session"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/signal"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/signal/done"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/routing"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport"
 )
 
 type ResponseCallback func(ctx context.Context, packet *udp.Packet)

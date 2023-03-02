@@ -11,15 +11,15 @@ import (
 	"golang.org/x/net/dns/dnsmessage"
 	"golang.org/x/net/http2"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/dns"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal/pubsub"
-	"github.com/xtls/xray-core/common/task"
-	dns_feature "github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/session"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/signal/pubsub"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/task"
+	dns_feature "github.com/mssvpn/Xray-Core-1.5.4/features/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/tls"
 )
 
 // NextProtoDQ - During connection establishment, DNS/QUIC support is indicated

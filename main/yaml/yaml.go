@@ -3,12 +3,12 @@ package yaml
 import (
 	"io"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/cmdarg"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/cmdarg"
+	"github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/infra/conf"
+	"github.com/mssvpn/Xray-Core-1.5.4/infra/conf/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/main/confloader"
 )
 
 func init() {

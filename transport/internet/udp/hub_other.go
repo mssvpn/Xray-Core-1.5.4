@@ -4,7 +4,7 @@
 package udp
 
 import (
-	"github.com/xtls/xray-core/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
 )
 
 func RetrieveOriginalDest(oob []byte) net.Destination {

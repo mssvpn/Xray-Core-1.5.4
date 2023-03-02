@@ -1,16 +1,16 @@
 package reverse
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Core-1.5.4/common/errors/errorgen
 
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/errors"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	core "github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/outbound"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/routing"
 )
 
 const (

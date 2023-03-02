@@ -3,9 +3,9 @@ package dispatcher_test
 import (
 	"testing"
 
-	. "github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
+	. "github.com/mssvpn/Xray-Core-1.5.4/app/dispatcher"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
 )
 
 type TestCounter int64

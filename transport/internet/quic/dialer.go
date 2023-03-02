@@ -7,12 +7,12 @@ import (
 
 	"github.com/lucas-clemente/quic-go"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/task"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/stat"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/tls"
 )
 
 type sessionContext struct {

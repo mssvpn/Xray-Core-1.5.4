@@ -7,7 +7,7 @@
 package internet
 
 import (
-	serial "github.com/xtls/xray-core/common/serial"
+	serial "github.com/mssvpn/Xray-Core-1.5.4/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

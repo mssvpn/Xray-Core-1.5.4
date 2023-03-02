@@ -3,16 +3,16 @@ package internet
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/dice"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net/cnc"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/session"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/outbound"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/stat"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/pipe"
 )
 
 // Dialer is the interface for dialing outbound connections.

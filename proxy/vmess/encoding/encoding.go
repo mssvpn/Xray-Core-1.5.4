@@ -1,11 +1,11 @@
 package encoding
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Core-1.5.4/common/errors/errorgen
 
 const (
 	Version = byte(1)

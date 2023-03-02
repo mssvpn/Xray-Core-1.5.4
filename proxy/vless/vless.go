@@ -5,7 +5,7 @@
 // clients with 'socks' for proxying.
 package vless
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Core-1.5.4/common/errors/errorgen
 
 const (
 	XRO = "xtls-rprx-origin"

@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/router"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/errors"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/strmatcher"
+	"github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/routing"
 )
 
 // Server is the interface for Name Server.

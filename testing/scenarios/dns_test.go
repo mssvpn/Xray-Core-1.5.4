@@ -7,17 +7,17 @@ import (
 
 	xproxy "golang.org/x/net/proxy"
 
-	"github.com/xtls/xray-core/app/dns"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/proxy/blackhole"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/proxy/socks"
-	"github.com/xtls/xray-core/testing/servers/tcp"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/proxyman"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/router"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/blackhole"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/freedom"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/socks"
+	"github.com/mssvpn/Xray-Core-1.5.4/testing/servers/tcp"
 )
 
 func TestResolveIP(t *testing.T) {

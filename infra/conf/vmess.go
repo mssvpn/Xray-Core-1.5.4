@@ -6,12 +6,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/inbound"
-	"github.com/xtls/xray-core/proxy/vmess/outbound"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/uuid"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/vmess"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/vmess/inbound"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/vmess/outbound"
 )
 
 type VMessAccount struct {

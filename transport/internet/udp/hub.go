@@ -3,10 +3,10 @@ package udp
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/udp"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol/udp"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
 )
 
 type HubOption func(h *Hub)

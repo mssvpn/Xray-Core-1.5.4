@@ -1,9 +1,9 @@
-package log // import "github.com/xtls/xray-core/common/log"
+package log // import "github.com/mssvpn/Xray-Core-1.5.4/common/log"
 
 import (
 	"sync"
 
-	"github.com/xtls/xray-core/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
 )
 
 // Message is the interface for all log messages.

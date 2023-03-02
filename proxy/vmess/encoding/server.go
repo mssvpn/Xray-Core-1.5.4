@@ -14,16 +14,16 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/bitmask"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/crypto"
-	"github.com/xtls/xray-core/common/drain"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/proxy/vmess"
-	vmessaead "github.com/xtls/xray-core/proxy/vmess/aead"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/bitmask"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/crypto"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/drain"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/task"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/vmess"
+	vmessaead "github.com/mssvpn/Xray-Core-1.5.4/proxy/vmess/aead"
 )
 
 type sessionID struct {

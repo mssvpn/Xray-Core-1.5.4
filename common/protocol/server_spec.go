@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/dice"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
 )
 
 type ValidationStrategy interface {

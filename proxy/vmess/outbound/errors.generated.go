@@ -1,6 +1,6 @@
 package outbound
 
-import "github.com/xtls/xray-core/common/errors"
+import "github.com/mssvpn/Xray-Core-1.5.4/common/errors"
 
 type errPathObjHolder struct{}
 

@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/xtls/xray-core/main/commands/base"
+	"github.com/mssvpn/Xray-Core-1.5.4/main/commands/base"
 )
 
 // CmdAPI calls an API in an Xray process

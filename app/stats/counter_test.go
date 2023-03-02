@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/features/stats"
+	. "github.com/mssvpn/Xray-Core-1.5.4/app/stats"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/stats"
 )
 
 func TestStatsCounter(t *testing.T) {

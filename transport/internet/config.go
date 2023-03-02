@@ -1,8 +1,8 @@
 package internet
 
 import (
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/features"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/features"
 )
 
 type ConfigCreator func() interface{}

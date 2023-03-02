@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/crypto/ocsp"
 
-	"github.com/xtls/xray-core/common/platform/filesystem"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/platform/filesystem"
 )
 
 func GetOCSPForFile(path string) ([]byte, error) {

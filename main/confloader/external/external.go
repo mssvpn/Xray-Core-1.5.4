@@ -1,6 +1,6 @@
 package external
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/mssvpn/Xray-Core-1.5.4/common/errors/errorgen
 
 import (
 	"bytes"
@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/platform/ctlcmd"
-	"github.com/xtls/xray-core/main/confloader"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/platform/ctlcmd"
+	"github.com/mssvpn/Xray-Core-1.5.4/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

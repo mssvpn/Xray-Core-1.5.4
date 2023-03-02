@@ -6,19 +6,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/transport/global"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/grpc"
-	"github.com/xtls/xray-core/transport/internet/headers/http"
-	"github.com/xtls/xray-core/transport/internet/headers/noop"
-	"github.com/xtls/xray-core/transport/internet/headers/tls"
-	"github.com/xtls/xray-core/transport/internet/kcp"
-	"github.com/xtls/xray-core/transport/internet/quic"
-	"github.com/xtls/xray-core/transport/internet/tcp"
-	"github.com/xtls/xray-core/transport/internet/websocket"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	. "github.com/mssvpn/Xray-Core-1.5.4/infra/conf"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/global"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/grpc"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/headers/http"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/headers/noop"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/headers/tls"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/kcp"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/quic"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/tcp"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/websocket"
 )
 
 func TestSocketConfig(t *testing.T) {

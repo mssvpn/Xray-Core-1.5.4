@@ -7,7 +7,7 @@
 package router
 
 import (
-	net "github.com/xtls/xray-core/common/net"
+	net "github.com/mssvpn/Xray-Core-1.5.4/common/net"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

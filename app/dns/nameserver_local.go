@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/dns/localdns"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/dns/localdns"
 )
 
 // LocalNameServer is an wrapper over local DNS feature.

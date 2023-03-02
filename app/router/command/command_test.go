@@ -11,13 +11,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/xtls/xray-core/app/router"
-	. "github.com/xtls/xray-core/app/router/command"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/testing/mocks"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/router"
+	. "github.com/mssvpn/Xray-Core-1.5.4/app/router/command"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/stats"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/routing"
+	"github.com/mssvpn/Xray-Core-1.5.4/testing/mocks"
 )
 
 func TestServiceSubscribeRoutingStats(t *testing.T) {

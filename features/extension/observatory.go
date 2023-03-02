@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/features"
+	"github.com/mssvpn/Xray-Core-1.5.4/features"
 )
 
 type Observatory interface {

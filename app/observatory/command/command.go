@@ -8,10 +8,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/common"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/observatory"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	core "github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/extension"
 )
 
 type service struct {

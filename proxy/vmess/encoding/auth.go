@@ -7,8 +7,8 @@ import (
 
 	"golang.org/x/crypto/sha3"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/crypto"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/crypto"
 )
 
 // Authenticate authenticates a byte array using Fnv hash.

@@ -6,19 +6,19 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/xtls/xray-core/app/log"
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	clog "github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/proxy/dokodemo"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	"github.com/xtls/xray-core/testing/servers/udp"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/log"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/proxyman"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	clog "github.com/mssvpn/Xray-Core-1.5.4/common/log"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/core"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/dokodemo"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/freedom"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/shadowsocks"
+	"github.com/mssvpn/Xray-Core-1.5.4/testing/servers/tcp"
+	"github.com/mssvpn/Xray-Core-1.5.4/testing/servers/udp"
 )
 
 func TestShadowsocksChaCha20Poly1305TCP(t *testing.T) {

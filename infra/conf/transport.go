@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/transport/global"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/global"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
 )
 
 type TransportConfig struct {

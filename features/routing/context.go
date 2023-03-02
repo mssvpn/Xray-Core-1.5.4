@@ -1,7 +1,7 @@
 package routing
 
 import (
-	"github.com/xtls/xray-core/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
 )
 
 // Context is a feature to store connection information for routing.

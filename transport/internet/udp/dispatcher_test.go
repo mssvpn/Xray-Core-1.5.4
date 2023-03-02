@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/udp"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	. "github.com/xtls/xray-core/transport/internet/udp"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/buf"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol/udp"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/routing"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport"
+	. "github.com/mssvpn/Xray-Core-1.5.4/transport/internet/udp"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/pipe"
 )
 
 type TestDispatcher struct {

@@ -4,8 +4,8 @@
 package tcp
 
 import (
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/stat"
 )
 
 func GetOriginalDestination(conn stat.Connection) (net.Destination, error) {

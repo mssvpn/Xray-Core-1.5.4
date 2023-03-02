@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/common/task"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	. "github.com/mssvpn/Xray-Core-1.5.4/common/task"
 )
 
 func TestExecuteParallel(t *testing.T) {

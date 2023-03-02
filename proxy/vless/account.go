@@ -1,8 +1,8 @@
 package vless
 
 import (
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/uuid"
 )
 
 // AsAccount implements protocol.Account.AsAccount().

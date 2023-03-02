@@ -10,19 +10,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/domainsocket"
-	httpheader "github.com/xtls/xray-core/transport/internet/headers/http"
-	"github.com/xtls/xray-core/transport/internet/http"
-	"github.com/xtls/xray-core/transport/internet/kcp"
-	"github.com/xtls/xray-core/transport/internet/quic"
-	"github.com/xtls/xray-core/transport/internet/tcp"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/websocket"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/platform/filesystem"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/serial"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/domainsocket"
+	httpheader "github.com/mssvpn/Xray-Core-1.5.4/transport/internet/headers/http"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/http"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/kcp"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/quic"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/tcp"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/tls"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/websocket"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/xtls"
 )
 
 var (

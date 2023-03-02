@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/features"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/platform"
+	"github.com/mssvpn/Xray-Core-1.5.4/features"
 )
 
 // Timeout contains limits for connection timeout.

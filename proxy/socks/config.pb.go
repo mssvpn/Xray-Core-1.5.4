@@ -7,8 +7,8 @@
 package socks
 
 import (
-	net "github.com/xtls/xray-core/common/net"
-	protocol "github.com/xtls/xray-core/common/protocol"
+	net "github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	protocol "github.com/mssvpn/Xray-Core-1.5.4/common/protocol"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -9,18 +9,18 @@ import (
 
 	"golang.org/x/net/dns/dnsmessage"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/dns"
-	udp_proto "github.com/xtls/xray-core/common/protocol/udp"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal/pubsub"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/core"
-	dns_feature "github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/udp"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/log"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/protocol/dns"
+	udp_proto "github.com/mssvpn/Xray-Core-1.5.4/common/protocol/udp"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/session"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/signal/pubsub"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/task"
+	"github.com/mssvpn/Xray-Core-1.5.4/core"
+	dns_feature "github.com/mssvpn/Xray-Core-1.5.4/features/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/features/routing"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet/udp"
 )
 
 // ClassicNameServer implemented traditional UDP DNS.

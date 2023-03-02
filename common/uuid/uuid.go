@@ -1,4 +1,4 @@
-package uuid // import "github.com/xtls/xray-core/common/uuid"
+package uuid // import "github.com/mssvpn/Xray-Core-1.5.4/common/uuid"
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/errors"
 )
 
 var byteGroups = []int{8, 4, 4, 4, 12}

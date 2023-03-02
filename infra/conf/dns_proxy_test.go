@@ -3,9 +3,9 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common/net"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/dns"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	. "github.com/mssvpn/Xray-Core-1.5.4/infra/conf"
+	"github.com/mssvpn/Xray-Core-1.5.4/proxy/dns"
 )
 
 func TestDnsProxyConfig(t *testing.T) {

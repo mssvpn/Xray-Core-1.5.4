@@ -13,12 +13,12 @@ import (
 
 	"github.com/mssvpn/websocket"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	http_proto "github.com/xtls/xray-core/common/protocol/http"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	v2tls "github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/net"
+	http_proto "github.com/mssvpn/Xray-Core-1.5.4/common/protocol/http"
+	"github.com/mssvpn/Xray-Core-1.5.4/common/session"
+	"github.com/mssvpn/Xray-Core-1.5.4/transport/internet"
+	v2tls "github.com/mssvpn/Xray-Core-1.5.4/transport/internet/tls"
 )
 
 type requestHandler struct {

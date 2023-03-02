@@ -7,9 +7,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/xtls/xray-core/app/stats"
-	. "github.com/xtls/xray-core/app/stats/command"
-	"github.com/xtls/xray-core/common"
+	"github.com/mssvpn/Xray-Core-1.5.4/app/stats"
+	. "github.com/mssvpn/Xray-Core-1.5.4/app/stats/command"
+	"github.com/mssvpn/Xray-Core-1.5.4/common"
 )
 
 func TestGetStats(t *testing.T) {
